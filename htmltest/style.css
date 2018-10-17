@@ -1,0 +1,10 @@
+.center {text-align: center;}
+h1 {text-align: center;}
+.world {color: white; background: black;}
+.names_list {text-align: center; margin: 10px 42%;}
+.name {display: block; font-size: 23px; margin: 5px 0; border-radius: 4px;}
+.ray {color: red; background: #4e3939;}
+.oscar {color: orange; background: darkblue;}
+.gwen {color: green; background: #ccbece;}
+.bob {color: blue; background: orange;}
+.marie {color: magenta; background: black;}

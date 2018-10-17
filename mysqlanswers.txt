@@ -1,0 +1,15 @@
+SQL TEST
+
+select * FROM movies ORDER BY title;
+
+select * from people ORDER BY birthdate asc LIMIT 3
+
+select distinct P.* from people AS P left join mtm_credits AS C ON C.person_id = P.id where role_id = 2;
+
+select P.* from people AS P left join mtm_credits AS C ON C.person_id = P.id where role_id=2 ORDER BY 2 DESC LIMIT 1;
+
+I wasn't able to figure this one out.
+select p.name, r.id from people as p inner join mtm_credits as c on c.person_id = p.id inner join roles as r on c.role_id = r.id;
+
+select * from people;
+aka they've all worked with Ben Affleck aka Batfleck.  Just kidding, Batman vs Superman was terrible.
